@@ -4,7 +4,7 @@ torch>=2.0.0                # PyTorch
 torchvision>=0.15.0         # Vision utilities
 opencv-python>=4.8.0        # OpenCV for stereo vision and calibration
 opencv-contrib-python>=4.8.0  # Extra OpenCV modules (stereo calibration, etc.)
-
+opencv-python-headless>=4.8.0  # OpenCV without GUI dependencies (for server environments)
 # Tracking
 lap>=0.4.0                  # Linear Assignment Problem solver (used by ByteTrack)
 filterpy>=1.4.5             # Kalman filtering for tracking
